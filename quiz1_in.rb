@@ -11,3 +11,8 @@ alpha.each do |letter|
 end
 puts hash
 
+numbers = [1,2,3,4,5]
+numbers.each do |number|
+	puts number
+	numbers.shift(1)
+end
